@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     color: black;
     text-align: left;
@@ -47,11 +53,12 @@ body{
     border-radius: 50%;
     outline: 2px solid #fff;
     transition-property: 
-        outline-offset, outline-color,background-color;
-    transition-duration: 25s;
+        outline-offset, outline-color,
+        background-color;
+    transition-duration: .25s;
 }
 
-.icom:hover{
+.icon:hover{
     outline-offset: 4px;
 }
 
